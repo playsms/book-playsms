@@ -46,6 +46,8 @@ Other hardware you need when you have specific plan:
 **Minimum required server administrator (or developer, or installer):**
 
 * Understand howto make sure required softwares above are installed
+* Understand howto configure installed web server
+  - In this book server administrator, developer or installer must understand howto configure Apache2
 * Understand howto create/drop MySQL database
 * Understand howto insert SQL statements into created database
 * Basic knowledges to manage Linux
