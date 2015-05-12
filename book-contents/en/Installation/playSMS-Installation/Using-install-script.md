@@ -5,6 +5,8 @@ playSMS Installation
 
 Install playSMS using install script `install-playsms.sh`
 
+0.  Login as `root`
+
 1.  Extract playSMS package and go there (For example in /usr/local/src)
 
     ```
