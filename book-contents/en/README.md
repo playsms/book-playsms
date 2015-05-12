@@ -3,8 +3,8 @@ playSMS Book Project
 
 # Table of Contents
 
-* [1. Installation](1-Installation/1-Installation.md)
-	* [1.1 Requirements](1-Installation/1.1-Requirements.md)
-	* [1.2 playSMS Installation](1-Installation/1.2-playSMS-Installation.md)
-		* [1.2.1 Using install script](1-Installation/1.2.1-Using-install-script.md)
-		* [1.2.2 Without install script](1-Installation/1.2.2-Without-install-script.md)
+* [Installation](Installation/README.md)
+	* [Requirements](Installation/Requirements.md)
+	* [playSMS Installation](Installation/playSMS-Installation/README.md)
+		* [Using install script](Installation/playSMS-Installation/Using-install-script.md)
+		* [Without install script](Installation/playSMS-Installation/Without-install-script.md)
