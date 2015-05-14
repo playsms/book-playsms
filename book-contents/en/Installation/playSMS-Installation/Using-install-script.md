@@ -5,9 +5,9 @@ playSMS Installation
 
 Install playSMS using install script `install-playsms.sh`
 
-0.  Login as `root`
+1.  Login as `root`
 
-1.  Extract playSMS package and go there (For example in /usr/local/src)
+2.  Extract playSMS package and go there (For example in /usr/local/src)
 
     ```
     tar -zxf playsms-1.0.tar.gz -C /usr/local/src
@@ -15,7 +15,7 @@ Install playSMS using install script `install-playsms.sh`
     cd /usr/local/src/playsms-1.0/
     ```
 
-2.  Copy install.conf.dist to install.conf and edit install.conf
+3.  Copy install.conf.dist to install.conf and edit install.conf
 
     Read install.conf and make changes to suit your system configuration
 
@@ -24,13 +24,13 @@ Install playSMS using install script `install-playsms.sh`
     vi install.conf
     ```
 
-3.  Run installer script
+4.  Run installer script
 
     ```
     ./install-playsms.sh
     ```
 
-4.  Configure rc.local to get playsmsd started on boot
+5.  Configure rc.local to get playsmsd started on boot
 
     Look for rc.local on /etc, /etc/init.d, /etc/rc.d/init.d
 
