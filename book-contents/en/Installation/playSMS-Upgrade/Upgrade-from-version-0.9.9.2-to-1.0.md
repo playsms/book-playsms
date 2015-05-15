@@ -44,7 +44,7 @@ Follow them correctly and in order.
     
     WARNING: 
     - Prior to running above `rm -rf *` command you must make sure that you have the backup
-    - And also make sure that you type the command correctly and in order
+    - And also make sure that you type the command correctly in the correct location
 
 4.  Install playSMS version 1.0 in the same server with the same DB and the same web folder
 
