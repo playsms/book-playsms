@@ -19,7 +19,7 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 	* [playSMS Upgrade](Installation/playSMS-Upgrade/README.md)
 		* [Upgrade from version 0.9.9.2 to 1.0](Installation/playSMS-Upgrade/Upgrade-from-version-0.9.9.2-to-1.0.md)
 	* [Gateway Installation](Installation/Gateway-Installation/README.md)
-		* [Kannel](Installation/Gateway-Installation/README.md)
+		* [Kannel](Installation/Gateway-Installation/Kannel/README.md)
 
 # License
 

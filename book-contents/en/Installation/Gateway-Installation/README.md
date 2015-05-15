@@ -1,4 +1,4 @@
 Gateway Installation
 ====================
 
-* [Kannel](README.md)
+* [Kannel](Kannel/README.md)
