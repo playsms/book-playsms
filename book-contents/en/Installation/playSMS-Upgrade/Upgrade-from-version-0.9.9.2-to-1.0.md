@@ -3,6 +3,9 @@ playSMS Upgrade
 
 # Upgrade from version 0.9.9.2 to 1.0
 
+We have 8 steps to follow to successfully upgrade an installed unmodified playSMS version 0.9.9.2 to 1.0.
+
+Follow them correctly and in order.
 
 1.  Stop current playSMS daemon
 
@@ -20,6 +23,8 @@ playSMS Upgrade
       mysqldump -u root -p --add-drop-table playsms > playsms.sql
       ```
       
+      Note that option `--add-drop-table` above is important, do not miss it.
+      
     - playSMS daemon at `/usr/local/bin/playsmsd`
     - playSMS daemon config at `/etc/playsmsd`
     - playSMS files at web folder `/var/www/playsms`
@@ -34,11 +39,11 @@ playSMS Upgrade
 
     ```
     cd /var/www/playsms
-    rm -rf .
+    rm -rf *
     ```
     
     WARNING: 
-    - Prior to running above `rm -rf .` command you must make sure that you have the backup
+    - Prior to running above `rm -rf *` command you must make sure that you have the backup
     - And also make sure that you type the command correctly and in order
 
 4.  Install playSMS version 1.0 in the same server with the same DB and the same web folder
