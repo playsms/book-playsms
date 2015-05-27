@@ -16,7 +16,7 @@ Follow them correctly and in order.
 
 2.  Backup everything related to installed playSMS 0.9.9.2
 
-    Backup these items:
+    Backup playSMS database:
     - playSMS DB as SQL file, example DB name is `playsms`:
     
       ```
@@ -24,8 +24,9 @@ Follow them correctly and in order.
       ```
       
       Note that option `--add-drop-table` above is important, do not miss it.
-      
-    - playSMS daemon at `/usr/local/bin/playsmsd`
+    
+    Backup playSMS files and folders:
+    - playSMS daemon script at `/usr/local/bin/playsmsd`
     - playSMS daemon config at `/etc/playsmsd`
     - playSMS files at web folder `/var/www/playsms`
     
@@ -33,7 +34,7 @@ Follow them correctly and in order.
     - Backup process is very important
     - Do not continue if you have any hesitation
     - Ask a lot if you have doubt
-    - You must make sure that you know how to restore
+    - You must make sure that you know how to restore them
 
 3.  Remove all old playSMS files at web folder
 
@@ -58,7 +59,7 @@ Follow them correctly and in order.
     ```
 
 
-6.  Re-insert your backup playSMS DB sql file to the same DB
+6.  Re-insert your backup (old) playSMS DB sql file to the same DB
 
     ```
     mysql -uroot -p playsms < playsms.sql
