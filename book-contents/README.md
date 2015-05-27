@@ -1,6 +1,5 @@
-playSMS Book Project
-====================
+# playSMS Book Project
 
-# Table of Contents
+## Table of Contents
 
-* [English version](en/README.md).
+* [English version](en/README.md)

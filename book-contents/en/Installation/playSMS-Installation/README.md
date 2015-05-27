@@ -1,5 +1,4 @@
-playSMS Installation
-====================
+# playSMS Installation
 
 There are 2 methods available for installing playSMS, they are:
 

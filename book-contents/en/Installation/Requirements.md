@@ -1,5 +1,4 @@
-Requirements
-============
+# Requirements
 
 Below requirements, all of them, must be fulfilled before starting the installation.
 

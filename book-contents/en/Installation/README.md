@@ -1,5 +1,4 @@
-Installation
-============
+# Installation
 
 * [Requirements](Requirements.md)
 * [playSMS Installation](playSMS-Installation/README.md)

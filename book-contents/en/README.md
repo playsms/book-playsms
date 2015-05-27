@@ -1,5 +1,4 @@
-playSMS Book Project
-====================
+# playSMS Book Project
 
 This is a book writing project for playSMS. This project will include information about how to install, configure and use playSMS. This project will also host several related open documents and other notes related to playSMS.
 
@@ -9,7 +8,7 @@ A flexible Web-based mobile portal system that it can be made to fit to various 
 
 Visit [playSMS Project](http://playsms.org) website for source codes and more information about playSMS.
 
-# Table of Contents
+## Table of Contents
 
 * [Installation](Installation/README.md)
 	* [Requirements](Installation/Requirements.md)
@@ -22,10 +21,10 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 	* [Gateway Installation](Installation/Gateway-Installation/README.md)
 		* [Kannel](Installation/Gateway-Installation/Kannel/README.md)
 
-# License
+## License
 
 This project is licensed as [GNU Free Documentation License version 1.3](LICENSE.md)
 
-# Maintainer
+## Maintainer
 
 * [Anton Raharja](http://antonraharja.com)

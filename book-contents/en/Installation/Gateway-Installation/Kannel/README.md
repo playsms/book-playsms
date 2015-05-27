@@ -1,7 +1,6 @@
-Gateway Installation
-====================
+# Kannel
 
-# Kannel Installation
+## Kannel Installation
 
 Below are steps required to install Kannel in Ubuntu or Debian.
 
@@ -43,6 +42,6 @@ Below are steps required to install Kannel in Ubuntu or Debian.
     /etc/init.d/kannel restart
     ```
 
-# Kannel Configuration for playSMS
+## Kannel Configuration for playSMS
 
 To be continue..

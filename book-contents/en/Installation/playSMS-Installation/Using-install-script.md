@@ -1,6 +1,3 @@
-playSMS Installation
-====================
-
 # Using install script
 
 Install playSMS using install script `install-playsms.sh`

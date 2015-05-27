@@ -1,6 +1,3 @@
-playSMS Installation
-====================
-
 # Without install script
 
 Install playSMS by following step-by-step:

@@ -1,6 +1,3 @@
-playSMS Upgrade
-===============
-
 # Upgrade from version 0.9.9.2 to 1.0
 
 We have 9 steps to follow to successfully upgrade an installed unmodified playSMS version 0.9.9.2 to 1.0.
