@@ -1,0 +1,49 @@
+# Kannel Installation on Ubuntu
+
+Below are steps required to install Kannel in Ubuntu or Debian.
+
+1.  Install Kannel
+
+    ```
+    apt-get install kannel
+    ```
+
+2.  Edit /etc/default/kannel to activate smsbox
+
+    ```
+    sed -i 's/#START_SMSBOX/START_SMSBOX/' /etc/default/kannel
+    ```
+
+3.  Backup original kannel.conf
+
+    ```
+    cp /etc/kannel/kannel.conf /etc/kannel/kannel.conf.dist
+    ```
+
+4.  Copy contributed `kannel.conf` in playSMS source folder to /etc/kannel/
+
+    ```
+    cp <playSMS source folder>/contrib/kannel/kannel.conf /etc/kannel/
+    ls -l /etc/kannel/
+    ```
+
+5.  Edit `/etc/kannel/kannel.conf`. Replace `http://CHANGE_THIS_TO_YOUR_PLAYSMS_URL`
+    with your playSMS URL, for example with `http://localhost/playsms`
+
+6.  Read the rest of `kannel.conf` and setup your Kannel.
+
+    You need to understand how to configure kannel.conf, how to add modems and smscs when needed.
+
+7.  Restart kannel
+
+    ```
+    /etc/init.d/kannel restart
+    ```
+
+8. Verify Kannel installation
+
+   ```
+   ps ax | grep box
+   netstat -lnpt
+   tail -f /var/log/kannel/kannel.log
+   ```
