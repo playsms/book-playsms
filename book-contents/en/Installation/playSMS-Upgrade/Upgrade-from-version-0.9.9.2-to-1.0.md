@@ -84,6 +84,6 @@ Follow them correctly and in order.
     ```
     playsmsd start
     playsmsd check
-    ````
+    ```
 
 9.  Verify installation after upgrade
