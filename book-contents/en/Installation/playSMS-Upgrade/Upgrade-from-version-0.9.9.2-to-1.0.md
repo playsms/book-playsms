@@ -49,7 +49,7 @@ Follow them correctly and in order.
 
 4.  Install playSMS version 1.0 in the same server with the same DB and the same web folder
 
-    Installation manual is available from [previous chapter](../playSMS-Installation/README.md).
+    playSMS version 1.0 installation manual is available from [previous chapter](../playSMS-Installation/README.md).
 
 5.  Stop playSMS daemon
 
