@@ -14,6 +14,7 @@ Below are steps required to install Kannel in Ubuntu or Debian:
     apt-get install kannel
     mkdir -p /var/log/kannel /var/run/kannel /var/spool/kannel/store
     chown -R kannel /var/log/kannel /var/run/kannel /var/spool/kannel/store
+    usermod -a -G dialout kannel
     ```
 
 2.  Edit `/etc/default/kannel` to activate smsbox
