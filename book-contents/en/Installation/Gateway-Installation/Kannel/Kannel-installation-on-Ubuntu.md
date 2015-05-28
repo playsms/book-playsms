@@ -1,4 +1,4 @@
-# Kannel Installation on Ubuntu
+# Kannel installation on Ubuntu
 
 Prerequisites:
 
