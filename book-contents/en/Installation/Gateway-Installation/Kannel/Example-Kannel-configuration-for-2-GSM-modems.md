@@ -6,9 +6,10 @@ The scenario is as follow:
 * Modems used are *wavecom* compatible modems
 * 1 modem slotted with SIM card from a carrier with number *+6283874709993*
 * The other modem slotted with SIM card also from a carrier with number *+6283875000599*
-* 2 GSM modems configured as 2 SMSCs: *gsm1* and *gsm2*
 * playSMS installed, working properly and accessible from `http://localhost/playsms`
+* 2 GSM modems configured as 2 SMSCs: `gsm1` and `gsm2`
 * Kannel admin and status password is `admpwdnotsafe`
+* Kannel sendsms username is `playsms`
 * Kannel sendsms password is `sendpwdnotreal`
 * Kannel admin port is `13000`
 * Kannel send SMS port is `13131`
