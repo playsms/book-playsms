@@ -1,11 +1,19 @@
 # Kannel Installation on Ubuntu
 
-Below are steps required to install Kannel in Ubuntu or Debian.
+Prerequisites:
+
+* You need Internet access
+* You need to be root and gained access to Linux console
+* Your Ubuntu or Debian must be configured correctly so that the `apt-get` will not fail
+
+Below are steps required to install Kannel in Ubuntu or Debian:
 
 1.  Install Kannel
 
     ```
     apt-get install kannel
+    mkdir -p /var/log/kannel /var/run/kannel /var/spool/kannel/store
+    chown -R kannel /var/log/kannel /var/run/kannel /var/spool/kannel/store
     ```
 
 2.  Edit `/etc/default/kannel` to activate smsbox
