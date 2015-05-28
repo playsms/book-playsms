@@ -8,11 +8,11 @@ The scenario is as follow:
 * The other modem slotted with SIM card also from a carrier with number *+6283875000599*
 * playSMS installed, working properly and accessible from `http://localhost/playsms`
 * 2 GSM modems configured as 2 SMSCs: `gsm1` and `gsm2`
-* Kannel admin and status password is `admpwdnotsafe`
-* Kannel sendsms username is `playsms`
-* Kannel sendsms password is `sendpwdnotreal`
-* Kannel admin port is `13000`
+* Kannel send SMS username is `playsms`
+* Kannel send SMS password is `sendpwdnotreal`
 * Kannel send SMS port is `13131`
+* Kannel admin and status password is `admpwdnotsafe`
+* Kannel admin port is `13000`
 
 Below is the working `kannel.conf` to match above scenario:
 
