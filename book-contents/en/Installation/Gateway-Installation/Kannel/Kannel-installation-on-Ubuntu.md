@@ -8,7 +8,7 @@ Below are steps required to install Kannel in Ubuntu or Debian.
     apt-get install kannel
     ```
 
-2.  Edit /etc/default/kannel to activate smsbox
+2.  Edit `/etc/default/kannel` to activate smsbox
 
     ```
     sed -i 's/#START_SMSBOX/START_SMSBOX/' /etc/default/kannel
@@ -27,7 +27,7 @@ Below are steps required to install Kannel in Ubuntu or Debian.
     ls -l /etc/kannel/
     ```
     
-    OR get the example `kannel.conf` from Github:
+    Or, get the example `kannel.conf` from Github:
     
     ```
     wget -c https://raw.githubusercontent.com/antonraharja/playSMS/master/contrib/kannel/kannel.conf
