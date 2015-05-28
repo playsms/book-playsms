@@ -40,7 +40,7 @@ Below are steps required to install Kannel in Ubuntu or Debian.
 
 6.  Read the rest of `kannel.conf` and setup your Kannel.
 
-    In the example `kannel.conf` you will see several option values with all uppercase, such as KANNELADMIN_CHANGE_THIS, you have to change them.
+    In the example `kannel.conf` you will see several option values with all uppercase, such as *KANNELADMIN_CHANGE_THIS*, you have to change them.
     Of course you need to understand how to configure `kannel.conf` properly, how to add modems and SMSCs when needed.
     
     Below URL is the user guide for understanding `kannel.conf`:
