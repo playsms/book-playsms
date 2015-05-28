@@ -10,3 +10,4 @@
 * [Gateway Installation](Gateway-Installation/README.md)
 	* [Kannel](Gateway-Installation/Kannel/README.md)
 		* [Kannel installation on Ubuntu](Gateway-Installation/Kannel/Kannel-installation-on-Ubuntu.md)
+		* [Example Kannel configuration for 2 GSM modems](Gateway-Installation/Kannel/Example-Kannel-configuration-for-2-GSM-modems.md)

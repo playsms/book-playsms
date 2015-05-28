@@ -21,6 +21,7 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 	* [Gateway Installation](Installation/Gateway-Installation/README.md)
 		* [Kannel](Installation/Gateway-Installation/Kannel/README.md)
 			* [Kannel installation on Ubuntu](Installation/Gateway-Installation/Kannel/Kannel-installation-on-Ubuntu.md)
+			* [Example Kannel configuration for 2 GSM modems](Installation/Gateway-Installation/Kannel/Example-Kannel-configuration-for-2-GSM-modems.md)
 * [Configuration](Configuration/README.md)
 	* [Gateway Configuration](Configuration/Gateway-Configuration/README.md)
 		* [Kannel for playSMS](Configuration/Gateway-Configuration/Kannel-for-playSMS.md)
