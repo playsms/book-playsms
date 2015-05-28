@@ -28,15 +28,8 @@ Below are steps required to install Kannel in Ubuntu or Debian:
     cp /etc/kannel/kannel.conf /etc/kannel/kannel.conf.dist
     ```
 
-4.  Copy contributed `kannel.conf` in playSMS source folder to /etc/kannel/
+4.  Download example `kannel.conf` and replace existing `/etc/kannel/kannel.conf`
 
-    ```
-    cp <playSMS source folder>/contrib/kannel/kannel.conf /etc/kannel/
-    ls -l /etc/kannel/
-    ```
-    
-    Or, get the example `kannel.conf` from Github:
-    
     ```
     wget -c https://raw.githubusercontent.com/antonraharja/playSMS/master/contrib/kannel/kannel.conf
     cp kannel.conf /etc/kannel/
