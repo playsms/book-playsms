@@ -1,6 +1,19 @@
 # Example Kannel configuration for 2 GSM modems
 
-Example of working `kannel.conf`:
+The scenario is as follow:
+
+* 2 GSM modems with USB connector connected to the server
+* Modems used are *wavecom* compatible modems
+* 1 modem slotted with SIM card from a carrier with number *+6283874709993*
+* The other modem slotted with SIM card also from a carrier with number *+6283875000599*
+* 2 GSM modems configured as 2 SMSCs: *gsm1* and *gsm2*
+* playSMS installed, working properly and accessible from `http://localhost/playsms`
+* Kannel admin and status password is `admpwdnotsafe`
+* Kannel sendsms password is `sendpwdnotreal`
+* Kannel admin port is `13000`
+* Kannel send SMS port is `13131`
+
+Below is the working `kannel.conf` to match above scenario:
 
 ```
 # CORE
@@ -94,5 +107,3 @@ omit-empty = true
 max-messages = 0
 get-url = "http://localhost/playsms/index.php?app=call&cat=gateway&plugin=kannel&access=geturl&t=%t&q=%q&a=%a&Q=%Q&smsc=%i"
 ```
-
-To be continued.
