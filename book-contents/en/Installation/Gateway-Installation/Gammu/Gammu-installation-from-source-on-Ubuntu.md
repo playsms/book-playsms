@@ -108,3 +108,9 @@ Let's start.
     ```
     ps ax | grep -v grep | grep gammu-smsd
     ```
+    
+    Monitor Gammu smsd log file:
+    
+    ```
+    tail -f /var/log/gammu/smsd.log
+    ```
