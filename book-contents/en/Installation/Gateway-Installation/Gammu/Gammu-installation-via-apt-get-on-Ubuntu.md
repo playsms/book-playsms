@@ -15,7 +15,7 @@ Let's start.
 2.  Install Gammu via `apt-get`
 
     ```
-    apt-get install gammu-smsd
+    apt-get install gammu gammu-smsd
     ```
 
 3.  Create required directories
