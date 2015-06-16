@@ -1,8 +1,10 @@
 # Gammu installation via apt-get on Ubuntu
 
-Here we have 6 steps that you need to follow one step at a time and in order.
+Here we have 7 steps that you need to follow one step at a time and in order.
 
 Please stop, do not continue to the next step, and post questions in playSMS Forum when you experienced difficulties or found error during following this manual.
+
+Let's start.
 
 1.  Make sure you have root access
     
@@ -59,4 +61,10 @@ Please stop, do not continue to the next step, and post questions in playSMS For
 
     ```
     /etc/init.d/gammu-smsd start
+    ```
+
+7.  Verify if `gammu-smsd` is running
+
+    ```
+    /etc/init.d/gammu-smsd status
     ```
