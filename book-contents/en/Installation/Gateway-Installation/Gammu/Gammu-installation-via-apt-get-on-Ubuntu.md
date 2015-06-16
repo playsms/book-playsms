@@ -66,5 +66,11 @@ Let's start.
 7.  Verify if `gammu-smsd` is running
 
     ```
-    /etc/init.d/gammu-smsd status
+    ps ax | grep -v grep | grep gammu-smsd
+    ```
+    
+    Monitor Gammu smsd log file:
+    
+    ```
+    tail -f /var/log/gammu/smsd.log
     ```
