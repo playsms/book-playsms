@@ -2,6 +2,7 @@
 
 * [Requirements](Requirements.md)
 * [playSMS Installation](playSMS-Installation/README.md)
+	* [Requirements setup on Ubuntu](playSMS-Installation/Requirements-setup-on-Ubuntu.md)
 	* [Using install script](playSMS-Installation/Using-install-script.md)
 	* [Without install script](playSMS-Installation/Without-install-script.md)
 * [playSMS Upgrade](playSMS-Upgrade/README.md)

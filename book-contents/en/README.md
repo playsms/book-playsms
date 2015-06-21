@@ -13,6 +13,7 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 * [Installation](Installation/README.md)
 	* [Requirements](Installation/Requirements.md)
 	* [playSMS Installation](Installation/playSMS-Installation/README.md)
+		* [Requirements setup on Ubuntu](Installation/playSMS-Installation/Requirements-setup-on-Ubuntu.md)
 		* [Using install script](Installation/playSMS-Installation/Using-install-script.md)
 		* [Without install script](Installation/playSMS-Installation/Without-install-script.md)
 	* [playSMS Upgrade](Installation/playSMS-Upgrade/README.md)
