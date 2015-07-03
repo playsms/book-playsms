@@ -23,6 +23,7 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 		* [Kannel](Installation/Gateway-Installation/Kannel/README.md)
 			* [Kannel installation on Ubuntu](Installation/Gateway-Installation/Kannel/Kannel-installation-on-Ubuntu.md)
 			* [Example Kannel configuration for 2 GSM modems](Installation/Gateway-Installation/Kannel/Example-Kannel-configuration-for-2-GSM-modems.md)
+			* [Example Kannel configuration with SMPP](Installation/Gateway-Installation/Kannel/Example-Kannel-configuration-with-SMPP.md)
 		* [Gammu](Installation/Gateway-Installation/Gammu/README.md)
 			* [Gammu installation from source on Ubuntu](Installation/Gateway-Installation/Gammu/Gammu-installation-from-source-on-Ubuntu.md)
 			* [Gammu installation via apt-get on Ubuntu](Installation/Gateway-Installation/Gammu/Gammu-installation-via-apt-get-on-Ubuntu.md)
