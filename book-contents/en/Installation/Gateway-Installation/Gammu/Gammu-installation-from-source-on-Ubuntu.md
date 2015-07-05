@@ -24,7 +24,7 @@ Let's start.
    
     ```
     cd /usr/local/src
-    wget -c wget -c http://dl.cihar.com/gammu/releases/gammu-1.36.2.tar.bz2
+    wget -c http://dl.cihar.com/gammu/releases/gammu-1.36.2.tar.bz2
     tar -jxf gammu-1.36.2.tar.bz2
     ```
 
@@ -67,7 +67,7 @@ Let's start.
     chmod 777 -R /var/spool/gammu/*
     ```
 
-7.  Get example of `gammu-smsdrc` from playSMS package and copy to `/etc/`
+7.  Get example of `gammu-smsdrc` and copy to `/etc/`
 
     ```
     wget -c https://raw.githubusercontent.com/antonraharja/playSMS/master/contrib/gammu/linux/gammu-smsdrc
