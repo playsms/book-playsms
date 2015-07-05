@@ -16,3 +16,5 @@
 	* [Gammu](Gateway-Installation/Gammu/README.md)
 		* [Gammu installation from source on Ubuntu](Gateway-Installation/Gammu/Gammu-installation-from-source-on-Ubuntu.md)
 		* [Gammu installation via apt-get on Ubuntu](Gateway-Installation/Gammu/Gammu-installation-via-apt-get-on-Ubuntu.md)
+	* [SMS Server Tools 3](Gateway-Installation/SMS-Server-Tools-3/README.md)
+		* [SMS Server Tools 3 installation from source on Ubuntu](Gateway-Installation/SMS-Server-Tools-3/SMS-Server-Tools-3-installation-from-source-on-Ubuntu.md)

@@ -27,6 +27,8 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 		* [Gammu](Installation/Gateway-Installation/Gammu/README.md)
 			* [Gammu installation from source on Ubuntu](Installation/Gateway-Installation/Gammu/Gammu-installation-from-source-on-Ubuntu.md)
 			* [Gammu installation via apt-get on Ubuntu](Installation/Gateway-Installation/Gammu/Gammu-installation-via-apt-get-on-Ubuntu.md)
+		* [SMS Server Tools 3](Installation/Gateway-Installation/SMS-Server-Tools-3/README.md)
+			* [SMS Server Tools 3 installation from source on Ubuntu](Installation/Gateway-Installation/SMS-Server-Tools-3/SMS-Server-Tools-3-installation-from-source-on-Ubuntu.md)
 * [Configuration](Configuration/README.md)
 	* [Gateway Configuration](Configuration/Gateway-Configuration/README.md)
 		* [Kannel for playSMS](Configuration/Gateway-Configuration/Kannel-for-playSMS.md)
