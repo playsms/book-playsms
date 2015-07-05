@@ -77,6 +77,10 @@ Let's start.
     - You may need to adjust queues and modems options
     - Mostly you do not need to change other options but queues and modems
     - Do not change the file or directory paths
+    
+    Important:
+    
+    - Modem name must be the same as SMSC name in playSMS
 
 8.  Run SMS Server Tools 3
 
