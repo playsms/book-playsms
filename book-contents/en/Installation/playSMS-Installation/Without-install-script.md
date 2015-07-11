@@ -31,22 +31,22 @@ Please note that before following below steps you need to cover all steps requir
 
 4.  Create playSMS web root, log, lib and set ownership to user www-data or web server user
 
-    Assumed that your web root is `/var/www` and your web server user is `www-data`
+    Assumed that your web root is `/var/www/html` and your web server user is `www-data`
 
     ```
-    mkdir -p /var/www/playsms /var/log/playsms /var/lib/playsms
-    chown -R www-data /var/www/playsms /var/log/playsms /var/lib/playsms
+    mkdir -p /var/www/html/playsms /var/log/playsms /var/lib/playsms
+    chown -R www-data /var/www/html/playsms /var/log/playsms /var/lib/playsms
     ```
 
     Please note that there are Linux distributions using `apache` as web server user instead of `www-data`
 
-    Also note that there are Linux distributions set `/var/www/html` as web root instead of `/var/www`
+    Also note that there are Linux distributions set `/var/www` as web root instead of `/var/www/html`
 
 5.  Copy files and directories inside `web` directory to playSMS web root and set ownership to web server user
 
     ```
-    cp -R web/* /var/www/playsms
-    chown -R www-data /var/www/playsms
+    cp -R web/* /var/www/html/playsms
+    chown -R www-data /var/www/html/playsms
     ```
 
 6.  Setup database (import database)
@@ -59,8 +59,8 @@ Please note that before following below steps you need to cover all steps requir
 7.  Copy config-dist.php to config.php and then edit config.php
 
     ```
-    cp /var/www/playsms/config-dist.php /var/www/playsms/config.php
-    vi /var/www/playsms/config.php
+    cp /var/www/html/playsms/config-dist.php /var/www/html/playsms/config.php
+    vi /var/www/html/playsms/config.php
     ```
 
     Please read and fill all fields with correct values
@@ -78,7 +78,7 @@ Please note that before following below steps you need to cover all steps requir
     vi /etc/playsmsd.conf
     ```
 
-    Make sure that `PLAYSMS_PATH` is pointing to a correct playSMS installation path (in this example to /var/www/playsms)
+    Make sure that `PLAYSMS_PATH` is pointing to a correct playSMS installation path (in this example to /var/www/html/playsms)
 
     Also Make sure that `PLAYSMS_BIN` is pointing to a correct playSMS daemon scripts path (in this example to /usr/local/bin)
 
