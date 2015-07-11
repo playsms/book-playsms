@@ -8,6 +8,7 @@
 * [playSMS Upgrade](playSMS-Upgrade/README.md)
 	* [Upgrade from version 0.9.9.2 to 1.0](playSMS-Upgrade/Upgrade-from-version-0.9.9.2-to-1.0.md)
 	* [Upgrade from version 1.0-rc9 to 1.0](playSMS-Upgrade/Upgrade-from-version-1.0-rc9-to-1.0.md)
+	* [Upgrade from version 1.0 to 1.1](playSMS-Upgrade/Upgrade-from-version-1.0-to-1.1.md)
 * [Gateway Installation](Gateway-Installation/README.md)
 	* [Kannel](Gateway-Installation/Kannel/README.md)
 		* [Kannel installation on Ubuntu](Gateway-Installation/Kannel/Kannel-installation-on-Ubuntu.md)
