@@ -1,15 +1,21 @@
 # Using install script
 
-Install playSMS using install script `install-playsms.sh`
+Install playSMS using install script `install-playsms.sh`.
 
-1.  Login as `root`
+Please note that before following below steps you need to cover all steps required in [Requirements setup on Ubuntu](Requirements-setup-on-Ubuntu.md).
+
+1.  Login as `root` or become `root`
+
+    ```
+    sudo su -
+    ```
 
 2.  Extract playSMS package and go there (For example in /usr/local/src)
 
     ```
-    tar -zxf playsms-1.0.tar.gz -C /usr/local/src
+    tar -zxf playsms-1.1.tar.gz -C /usr/local/src
     ls -l /usr/local/src/
-    cd /usr/local/src/playsms-1.0/
+    cd /usr/local/src/playsms-1.1/
     ```
 
 3.  Copy install.conf.dist to install.conf and edit install.conf
@@ -18,7 +24,7 @@ Install playSMS using install script `install-playsms.sh`
 
     ```
     cp install.conf.dist install.conf
-    vi install.conf
+    nano install.conf
     ```
 
 4.  Run installer script

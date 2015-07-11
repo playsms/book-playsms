@@ -1,15 +1,21 @@
 # Without install script
 
-Install playSMS by following step-by-step:
+Install playSMS without using install script.
 
-1. Login as `root`
+Please note that before following below steps you need to cover all steps required in [Requirements setup on Ubuntu](Requirements-setup-on-Ubuntu.md).
+
+1.  Login as `root` or become `root`
+
+    ```
+    sudo su -
+    ```
 
 2.  Extract playSMS package and go there (For example in /usr/local/src)
 
     ```
-    tar -zxf playsms-1.0.tar.gz -C /usr/local/src
+    tar -zxf playsms-1.1.tar.gz -C /usr/local/src
     ls -l /usr/local/src/
-    cd /usr/local/src/playsms-1.0/
+    cd /usr/local/src/playsms-1.1/
     ```
 
 3.  Run getcomposer.sh
@@ -20,7 +26,7 @@ Install playSMS by following step-by-step:
 
     You may see the following warning, that can safely be ignored:
     ```
-    Warning: Ambiguous class resolution, "PEAR_ErrorStack" was found in both "/usr/local/src/playsms-1.0/web/lib/composer/vendor/pear/pear/PEAR/ErrorStack.php" and "/usr/local/src/playsms-1.0/web/lib/composer/vendor/pear/pear/PEAR/ErrorStack5.php", the first will be used.
+    Warning: Ambiguous class resolution, "PEAR_ErrorStack" was found in both "/usr/local/src/playsms-1.1/web/lib/composer/vendor/pear/pear/PEAR/ErrorStack.php" and "/usr/local/src/playsms-1.1/web/lib/composer/vendor/pear/pear/PEAR/ErrorStack5.php", the first will be used.
     ```
 
 4.  Create playSMS web root, log, lib and set ownership to user www-data or web server user
@@ -47,7 +53,7 @@ Install playSMS by following step-by-step:
 
     ```
     mysqladmin -u root -p create playsms
-    cat db/playsms.sql | mysql -u root -p playsms
+    mysql -u root -p playsms < db/playsms.sql
     ```
 
 7.  Copy config-dist.php to config.php and then edit config.php
