@@ -18,6 +18,7 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 		* [Without install script](Installation/playSMS-Installation/Without-install-script.md)
 	* [playSMS Upgrade](Installation/playSMS-Upgrade/README.md)
 		* [Upgrade from version 0.9.9.2 to 1.0](Installation/playSMS-Upgrade/Upgrade-from-version-0.9.9.2-to-1.0.md)
+		* [Upgrade from version 1.0-rc4 to 1.0](Installation/playSMS-Upgrade/Upgrade-from-version-1.0-rc4-to-1.0.md)
 		* [Upgrade from version 1.0-rc9 to 1.0](Installation/playSMS-Upgrade/Upgrade-from-version-1.0-rc9-to-1.0.md)
 		* [Upgrade from version 1.0 to 1.1](Installation/playSMS-Upgrade/Upgrade-from-version-1.0-to-1.1.md)
 	* [Gateway Installation](Installation/Gateway-Installation/README.md)
