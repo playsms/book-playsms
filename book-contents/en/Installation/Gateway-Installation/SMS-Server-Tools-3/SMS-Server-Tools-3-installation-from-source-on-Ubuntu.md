@@ -42,7 +42,7 @@ Let's start.
 
     ```
     mkdir -p /var/log/sms/stats
-    mkdir -p /var/spool/sms/{checked,failed,incoming,outgoing,sent}
+    mkdir -p /var/spool/sms/{checked,failed,incoming,outgoing,sent,modem1,modem2}
     ```
     
     Note:
