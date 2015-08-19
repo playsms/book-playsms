@@ -1,6 +1,6 @@
 # Upgrade from version 1.1 to 1.2
 
-We have 8 steps below that must be followed sequentially to successfully upgrades an installed, 
+We have a few steps below that must be followed sequentially to successfully upgrades an installed, 
 unmodified, playSMS version 1.1 to playSMS version 1.2.
 
 Essentially upgrades means that:
