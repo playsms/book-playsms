@@ -1,7 +1,7 @@
-# Upgrade from version 1.1 to 1.2
+# Upgrade from version 1.1 to 1.2.1
 
 We have a few steps below that must be followed sequentially to successfully upgrades an installed, 
-unmodified, playSMS version 1.1 to playSMS version 1.2.
+unmodified, playSMS version 1.1 to playSMS version 1.2.1.
 
 Essentially upgrades means that:
 
@@ -44,16 +44,16 @@ Let's start.
     - Ask a lot if you have doubt
     - You must make sure that you know how to restore them
 
-3.  Copy files from playSMS version 1.2 to replace old files
+3.  Copy files from playSMS version 1.2.1 to replace old files
 
-    Download `playsms-1.2.tar.gz` from Sourceforge, visit [playSMS Download](http://playsms.org/download) for more information.
+    Download `playsms-1.2.1.tar.gz` from Sourceforge, visit [playSMS Download](http://playsms.org/download) for more information.
     
     Run below commands to extract downloaded playSMS and replace old files:
 
     ```
-    tar -zxf playsms-1.2.tar.gz -C /usr/local/src
+    tar -zxf playsms-1.2.1.tar.gz -C /usr/local/src
     ls -l /usr/local/src/
-    cd /usr/local/src/playsms-1.2/
+    cd /usr/local/src/playsms-1.2.1/
     cp -rR web/* /var/www/html/playsms
     cp daemon/linux/bin/playsmsd.php /usr/local/bin/playsmsd
     chmod 755 /usr/local/bin/playsmsd
@@ -61,10 +61,10 @@ Let's start.
 
 6.  Upgrade DB
 
-    SQL upgrade file is available on `playsms-1.2.tar.gz`.
+    SQL upgrade file is available on `playsms-1.2.1.tar.gz`.
 
     ```
-    mysql -uroot -p playsms < db/playsms-upgrade_1.1_to_1.2.sql
+    mysql -uroot -p playsms < db/playsms-upgrade_1.1_to_1.2.1.sql
     ```
 
 7.  Start playSMS daemon, and make sure its started (PIDS are displayed)
