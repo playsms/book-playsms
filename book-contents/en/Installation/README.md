@@ -13,6 +13,7 @@
 	* [Upgrade from version 1.1 to 1.2](playSMS-Upgrade/Upgrade-from-version-1.1-to-1.2.md)
 	* [Upgrade from version 1.1 to 1.2.1](playSMS-Upgrade/Upgrade-from-version-1.1-to-1.2.1.md)
 	* [Upgrade from version 1.2 to 1.2.1](playSMS-Upgrade/Upgrade-from-version-1.2-to-1.2.1.md)
+	* [Upgrade from version 1.2 or 1.2.1 to 1.3](playSMS-Upgrade/Upgrade-from-version-1.2-or-1.2.1-to-1.3.md)
 * [Gateway Installation](Gateway-Installation/README.md)
 	* [Kannel](Gateway-Installation/Kannel/README.md)
 		* [Kannel installation on Ubuntu](Gateway-Installation/Kannel/Kannel-installation-on-Ubuntu.md)

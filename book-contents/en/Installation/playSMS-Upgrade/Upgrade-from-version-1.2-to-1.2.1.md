@@ -20,7 +20,7 @@ Let's start.
     playsmsd check
     ```
 
-2.  Backup everything related to installed playSMS 1.0
+2.  Backup everything related to installed playSMS 1.2
 
     Backup playSMS database:
     - playSMS DB as SQL file, example DB name is `playsms`:
