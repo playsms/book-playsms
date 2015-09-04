@@ -13,9 +13,9 @@ Please note that before following below steps you need to cover all steps requir
 2.  Extract playSMS package and go there (For example in /usr/local/src)
 
     ```
-    tar -zxf playsms-1.1.tar.gz -C /usr/local/src
+    tar -zxf playsms-1.3.tar.gz -C /usr/local/src
     ls -l /usr/local/src/
-    cd /usr/local/src/playsms-1.1/
+    cd /usr/local/src/playsms-1.3/
     ```
 
 3.  Copy install.conf.dist to install.conf and edit install.conf
