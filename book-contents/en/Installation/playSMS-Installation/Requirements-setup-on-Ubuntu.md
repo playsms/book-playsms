@@ -30,3 +30,5 @@ In this tutorial the preparation is done for Ubuntu with LAMP stack.
     ```
 
 5.  Browser `http://localhost` and see if the web server is serving
+
+6.  Download playSMS package from `https://sourceforge.net/projects/playsms/files/playsms/` and save it or upload it to the server
