@@ -4,6 +4,8 @@ Install playSMS using install script `install-playsms.sh`.
 
 Please note that before following below steps you need to cover all steps required in [Requirements setup on Ubuntu](Requirements-setup-on-Ubuntu.md).
 
+Please also note that the current official release is **playSMS version 1.3** and we will use that.
+
 1.  Login as `root` or become `root`
 
     ```
