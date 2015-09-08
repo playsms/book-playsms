@@ -5,6 +5,7 @@
 	* [Requirements setup on Ubuntu](playSMS-Installation/Requirements-setup-on-Ubuntu.md)
 	* [Using install script](playSMS-Installation/Using-install-script.md)
 	* [Without install script](playSMS-Installation/Without-install-script.md)
+	* [Additional step for playSMS 1.3 installation](playSMS-Installation/Additional-step-for-playSMS-1.3-installation.md)
 * [playSMS Upgrade](playSMS-Upgrade/README.md)
 	* [Upgrade from version 0.9.9.2 to 1.0](playSMS-Upgrade/Upgrade-from-version-0.9.9.2-to-1.0.md)
 	* [Upgrade from version 1.0-rc4 to 1.0](playSMS-Upgrade/Upgrade-from-version-1.0-rc4-to-1.0.md)
