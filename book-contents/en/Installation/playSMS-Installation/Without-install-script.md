@@ -102,6 +102,10 @@ Please also note that the current official release is **playSMS version 1.3** an
 
     This way playsmsd will start automatically on boot.
 
+12. If you're using playSMS version 1.3 there are additional steps you need to do.
+
+    Please follow additional steps as explained in [this page](Additional-step-for-playSMS-1.3-installation.md).
+
 Note:
 
 * After successful installation, please run command `ps ax` and see if playsmsd is running
