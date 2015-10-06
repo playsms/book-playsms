@@ -16,7 +16,6 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 		* [Requirements setup on Ubuntu](Installation/playSMS-Installation/Requirements-setup-on-Ubuntu.md)
 		* [Using install script](Installation/playSMS-Installation/Using-install-script.md)
 		* [Without install script](Installation/playSMS-Installation/Without-install-script.md)
-		* [Additional step for playSMS 1.3 installation](Installation/playSMS-Installation/Additional-step-for-playSMS-1.3-installation.md)
 	* [playSMS Upgrade](Installation/playSMS-Upgrade/README.md)
 		* [Upgrade from version 0.9.9.2 to 1.0](Installation/playSMS-Upgrade/Upgrade-from-version-0.9.9.2-to-1.0.md)
 		* [Upgrade from version 1.0-rc4 to 1.0](Installation/playSMS-Upgrade/Upgrade-from-version-1.0-rc4-to-1.0.md)
