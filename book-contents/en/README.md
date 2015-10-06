@@ -25,7 +25,7 @@ Visit [playSMS Project](http://playsms.org) website for source codes and more in
 		* [Upgrade from version 1.1 to 1.2.1](Installation/playSMS-Upgrade/Upgrade-from-version-1.1-to-1.2.1.md)
 		* [Upgrade from version 1.2 to 1.2.1](Installation/playSMS-Upgrade/Upgrade-from-version-1.2-to-1.2.1.md)
 		* [Upgrade from version 1.2 or 1.2.1 to 1.3](Installation/playSMS-Upgrade/Upgrade-from-version-1.2-or-1.2.1-to-1.3.md)
-		* [Upgrade from version 1.3 to 1.3.1](Installation/playSMS-Upgrade/Upgrade-from-version-1.3-to-1.3.1.md)
+		* [Upgrade to playSMS version 1.3.1](Installation/playSMS-Upgrade/Upgrade-to-playSMS-version-1.3.1.md)
 	* [Gateway Installation](Installation/Gateway-Installation/README.md)
 		* [Kannel](Installation/Gateway-Installation/Kannel/README.md)
 			* [Kannel installation on Ubuntu](Installation/Gateway-Installation/Kannel/Kannel-installation-on-Ubuntu.md)

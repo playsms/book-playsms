@@ -1,7 +1,9 @@
-# Upgrade from version 1.3 to 1.3.1
+# Upgrade to playSMS version 1.3.1
 
-We have a few steps below that must be followed sequentially to successfully upgrades an installed, 
-unmodified, playSMS version 1.3 to playSMS version 1.3.1.
+We have a few steps below that must be followed sequentially to successfully upgrades an installed, unmodified, 
+playSMS version 1.1, 1.2, 1.2.1 or 1.3 to playSMS version 1.3.1.
+
+Please note that upgrade instructions in this article are not compatible with playSMS 1.0 and before.
 
 Essentially upgrades means that:
 
@@ -20,7 +22,7 @@ Let's start.
     sudo playsmsd check
     ```
 
-2.  Backup everything related to installed playSMS 1.3
+2.  Backup everything related to installed playSMS 1.1, 1.2, 1.2.1 or 1.3
 
     Backup playSMS database:
     - playSMS DB as SQL file, example DB name is `playsms`:
@@ -62,6 +64,20 @@ Let's start.
 6.  Upgrade DB
 
     SQL upgrade file is available on `playsms-1.3.1.tar.gz`.
+
+    If you upgrade from playSMS 1.1 to 1.3.1:
+
+    ```
+    mysql -uroot -p playsms < db/playsms-upgrade_1.1_to_1.3.1.sql
+    ```
+
+    If you upgrade from playSMS 1.2 or 1.2.1 to 1.3.1:
+
+    ```
+    mysql -uroot -p playsms < db/playsms-upgrade_1.2_or_1.2.1_to_1.3.1.sql
+    ```
+
+    If you upgrade from playSMS 1.3 to 1.3.1:
 
     ```
     mysql -uroot -p playsms < db/playsms-upgrade_1.3_to_1.3.1.sql
