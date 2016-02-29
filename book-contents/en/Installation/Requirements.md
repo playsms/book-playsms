@@ -39,6 +39,7 @@ Other hardware you need when you have specific plan:
 	* SMTP server software can be installed locally
 	* You can install, configured and start Postfix as your SMTP server
 * At least one console browser such as lynx, wget or curl should be installed
+* Git must be installed to download Composer packages properly
 * Downloaded playSMS package from SF.net or latest source code from Github
 
 **Minimum required server administrator (or developer, or installer):**
